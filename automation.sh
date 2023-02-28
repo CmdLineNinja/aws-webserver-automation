@@ -62,6 +62,6 @@ if [[ ! -f ${CRONJOB_FILE} ]]
 then
 	touch ${CRONJOB_FILE}
 	chmod 600 ${CRONJOB_FILE}	
-	echo "00	*	*	*	*	 /root/Automation_Project/automation.sh" > ${CRONJOB_FILE}
+	echo "00	*	*	*	*	root	 /root/Automation_Project/automation.sh" > ${CRONJOB_FILE}
 fi
 
