@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+<title>Inventory</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  min-height: 100vh; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h2 {
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-underline-position: under;
+}
+</style>
+</head>
+<body>
+
+<h1>Book-keeping for Web Server Automation Project</h1>
+
+<div class="row">
+  <div class="column" style="background-color:#b0c4de;">
+    <h2>Log Type</h2>
+  </div>
+  <div class="column" style="background-color:#b0c4de;">
+    <h2>Creation date/time</h2>
+  </div>
+  <div class="column" style="background-color:#b0c4de;">
+    <h2>File Type</h2>
+  </div>
+  <div class="column" style="background-color:#b0c4de;">
+    <h2>Size</h2>
+  </div>
+</div>
+
+</body>
+</html>
